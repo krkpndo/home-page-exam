@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>App Building: Static E-Commerce Website</title>
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="./index.css">
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<!-- Google Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="#">MechaVerse</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarNav">
+		      <ul class="navbar-nav ms-auto">
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="featured">Featured</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">About</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<section id="home">
+			<div id="hero">
+				<div id="hero-contents">
+					<h1>Pioneering the Future, One Mecha at a Time</h1>
+					<h3>Crafted with precision, Built for excellence</h3>
+					<button id="explore-btn">Explore</button>
+				</div>
+			</div>
+		</section>
+
+		<div id="carousel-learn-container">
+			<div class="carousel">
+				<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img src="./img/yumi_robot.jpg" class="d-block w-100" alt="...">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="./img/probbie_robot.jpg" class="d-block w-100" alt="...">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="./img/robotic_dog.jpg" class="d-block w-100" alt="...">
+				    </div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="visually-hidden">Next</span>
+				  </button>
+				</div>
+			</div>
+
+			<div class="learn">
+				<div id="learn-1">
+					<h4>Unleash the power of motion with motors and actuators!</h4>
+					<button id="learn-button">
+						Learn More
+					</button>
+				</div>
+				<div id="learn-2">
+					<h4>Discover the future of precision with our New Professional Robot Arms and Modular Systems!</h4>
+					<button id="learn-button">
+						Learn More
+					</button>
+				</div>
+			</div>
+		</div>
+
+  		<section>
+  			<h3 id="featured">Featured Products</h3>
+			<div class="gallery">
+				<div class="card">
+					<img src="./img/cyberdog.jpg" class="card-img-top">
+					<div class="card-body">
+					<h5>Xiaomi CyberDog 2</h5>
+				  	<p class="card-text">This quadruped robot is a highly agile robotic dog capable of performing various tricks and navigating complex terrains.</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./img/eilik.jpg" class="card-img-top">
+					<div class="card-body">
+					<h5>Eilik Desktop Companion Bot</h5>
+				  	<p class="card-text">This is a small, interactive robot designed as a companion for desktops. It features emotional expressions, playful interactions, and can work alongside others of its kind.</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./img/yarbo.jpg" class="card-img-top">
+					<div class="card-body">
+					<h5>Yarbo Lawn Mower</h5>
+				  	<p class="card-text">A smart, modular robotic lawn mower designed for efficiency. It handles complex landscapes and can operate autonomously, simplifying yard maintenance with minimal user input.</p>
+					</div>
+				</div>
+			    <div class="card">
+			    	<img src="./img/deebot.jpg" class="card-img-top">
+			    	<div class="card-body">
+			    	<h5>Ecovacs Deebot X3 Omni</h5>
+			      	<p class="card-text">This robotic vacuum and mop offers efficient cleaning with quick mapping capabilities and versatile functions to simplify household tasks.</p>
+			    	</div>
+			  	</div>
+			</div>
+		</section>
+
+		<div class="about-us">
+			<div id="about">
+				<h3>About Mechaverse</h3>
+				<p>
+					At MechaVerse, we don't just build robots—we're pioneering the future of technology. Our passion for innovation drives us to create cutting-edge mechas and robots that revolutionize industries, enhance everyday life, and push the boundaries of what's possible. Whether you're a tech enthusiast, a visionary entrepreneur, or someone looking to bring futuristic solutions to your business, MechaVerse is here to turn those dreams into reality.
+
+					Our products are meticulously designed with precision, combining powerful engineering with sleek, modern aesthetics. From agile drones to intelligent humanoid robots and customizable robotic arms, each of our creations is crafted to deliver unmatched performance and quality.
+
+					Join us in shaping tomorrow’s world—one mecha at a time.
+				</p>
+			</div>
+			<div id="choose">
+				<h3>Why Choose Us</h3>
+				<p>We pride ourselves on delivering products that not only meet but exceed industry standards. Every robot and mecha is tested for durability, efficiency, and precision. Stay ahead with the latest advancements in robotics and automation. Your satisfaction is our priority, and we offer dedicated support to ensure you get the most out of your purchase. Our commitment to innovation drives us to continuously enhance our designs, integrating cutting-edge technologies to deliver unparalleled performance. Whether you're looking for tools to optimize your business or solutions to simplify daily tasks, our products are engineered to empower your goals. Join the revolution and experience the future of robotics today.
+				</p>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footer">
+				<p>All rights reserved. &copy; 2024 MechaVerse</p>
+				<p>For educational purposes only. Images used belong to the rightful owner. Copyright infringement not intended.</p>
+			</div>
+		</footer>
+
+
+	<!-- Bootstrap Script -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>
